@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 //se añadió el link a brand para ir al home
+
 const Brand = () => {
     return(
         <div>

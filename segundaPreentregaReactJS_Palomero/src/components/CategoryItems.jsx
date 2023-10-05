@@ -1,9 +1,11 @@
+import { Link } from "react";
+//se agrega link en reemplazo de a se mantine to #
 
 const CategoryItems = ({ isActive = false, name }) => {
   return (
-    <a className={`nav-link ${isActive ? 'active' : ''}`} aria-current="page" href="#">
+    <Link className={`nav-link ${isActive ? 'active' : ''}`} aria-current="page" to="#">
       {name}
-    </a>
+    </Link>
   );
 };
 

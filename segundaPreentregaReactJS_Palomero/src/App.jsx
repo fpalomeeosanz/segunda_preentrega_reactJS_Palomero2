@@ -18,7 +18,6 @@ function App() {
       <Route path="*" element={<h1>404! Escribenos si buscas algo y no lo encuentras</h1>}></Route>
       <Route exact path="/category/:categoryId" element={<CategoryItem/>}></Route>
       <Route exact path="/item/:id" element={<ItemDetailContainer />}></Route>
-      
     </Routes>
     </BrowserRouter>
   );

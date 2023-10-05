@@ -10,3 +10,10 @@ p{
 h2{
   color: antiquewhite;
 }
+button{
+  border-radius: 100;
+}
+span{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
