@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import asyncMock from './asyncMock'; 
+import asyncMock from './AsyncMock'; 
 import Item from './Item';
 //se importa la promesa simulada y se cera stado para almacenar el elemento
 

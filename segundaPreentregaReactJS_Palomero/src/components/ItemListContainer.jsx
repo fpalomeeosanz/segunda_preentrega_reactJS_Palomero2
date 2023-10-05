@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import ItemList from './ItemList';
-import  mockItems  from './asyncMock';
+import  mockItems  from './AsyncMock';
 
 //se crea ItemListContainer para mostra listado
 const ItemListContainer = () => {

@@ -1,7 +1,6 @@
-//se crea el "item"
+//se crea el "item" y se importa 
 
-const Item = ({ item, imageUrl }) => {
-    
+const Item = ({ item, imageUrl }) => {  
   return (
     <div className="item">
       <img src={imageUrl} alt={item.name} width={500} height={250} />

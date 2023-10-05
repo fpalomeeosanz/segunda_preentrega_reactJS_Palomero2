@@ -7,7 +7,7 @@ import NavBar from "./components/NavBar";
 import Logo from "./components/Logo"
 
 
-//navBar desde abajo
+//navBar desde abajo con rutas react router dom y llas rutas pedidass
 function App() {
   return (
     <BrowserRouter>

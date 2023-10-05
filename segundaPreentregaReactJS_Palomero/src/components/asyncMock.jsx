@@ -1,6 +1,6 @@
 import { mockItems } from "./mockItems";
 
-const asyncMock = () => {
+const AsyncMock = () => {
     return new Promise((resolve) => {
       setTimeout(() => {
         <mockItems />
@@ -14,7 +14,8 @@ const asyncMock = () => {
     });
   };
   
-  export default asyncMock;
+  export default AsyncMock;
+ 
   
 
 

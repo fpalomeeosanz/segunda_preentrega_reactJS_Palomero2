@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import ItemCount from './ItemCount';
 import { useHistory } from 'react-router-dom';
+import ItemCount from './ItemCount';
 //se agrega metodoUseHitory y se agrega un pusheo para el carrito al finalizar la compra
 
 
@@ -26,7 +26,7 @@ const ItemDetail = ({ item }) => {
         <ItemCount stock={item.stock} initial={1} onAdd={handleAddToCart} />
       ) : (
         <div>
-          <h2>Has seleccionado {selectedItemCount} ítem(s).</h2>
+          <h2>Genial! Haz seleccionado {selectedItemCount} ítem(s).</h2>
           <button onClick={handleFinishPurchase}>Terminar mi compra</button>
         </div>
       )}

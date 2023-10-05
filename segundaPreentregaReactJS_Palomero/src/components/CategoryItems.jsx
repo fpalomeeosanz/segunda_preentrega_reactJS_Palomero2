@@ -3,9 +3,7 @@ import { Link } from "react";
 
 const CategoryItems = ({ isActive = false, name }) => {
   return (
-    <Link className={`nav-link ${isActive ? 'active' : ''}`} aria-current="page" to="#">
-      {name}
-    </Link>
+    <Link className={`nav-link ${isActive ? 'active' : ''}`} aria-current="page" to={"#"}>{name}</Link>
   );
 };
 
