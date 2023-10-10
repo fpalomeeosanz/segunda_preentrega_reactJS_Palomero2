@@ -1,14 +1,15 @@
 import { useState, useEffect } from 'react';
-import asyncMock from './AsyncMock'; 
+import { mockItems } from './mockItems'; 
 import Item from './Item';
 //se importa la promesa simulada y se cera stado para almacenar el elemento
 
 const ItemDetailContainer = () => {
-  const [item, setItem] = useState(null); // 
+  const [item, setItem] = useState([]);  
   const [loading, setLoading] = useState(true);
+  console.log(mockItems);
 
   useEffect(() => {
-    asyncMock()
+    mockItems()
       .then((result) => {
         setItem(result); 
         setLoading(false); 

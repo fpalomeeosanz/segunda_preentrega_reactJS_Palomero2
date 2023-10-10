@@ -2,7 +2,7 @@ import Brand from "./Brand";
 import MenuButton from "./MenuButton";
 import CategoryItems from "./CategoryItems";
 import CartContainer from "./CartContainer";
-import { Link } from "react";
+import { Link } from "react-router-dom";
 //se incluye metodo Link para rutear el navBar
 
 const NavBar = () => {
