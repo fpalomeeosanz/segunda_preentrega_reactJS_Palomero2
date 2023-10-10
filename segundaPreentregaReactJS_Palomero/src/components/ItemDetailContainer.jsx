@@ -24,7 +24,7 @@ const ItemDetailContainer = () => {
   return (
     <div className="item-detail-container">
       {loading ? (
-        <Loader /> // Muestra el Loader mientras se cargan los datos
+        <Loader /> 
       ) : item ? (
         <div>
           <Item item={item} />
