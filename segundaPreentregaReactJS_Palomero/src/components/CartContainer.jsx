@@ -1,5 +1,6 @@
 import CartIcon from "./CartIcon";
 import CartItems from "./CartItems";
+import ItemDetailContainer from "./ItemDetailContainer";
 
 //se actualizó el contenedor para que use CartItems
 const CartContainer = () => {
@@ -7,6 +8,7 @@ const CartContainer = () => {
         <div className="bg-info rounded  p-3 position-relative">
          <CartIcon color="white"/> 
          <CartItems />
+         <ItemDetailContainer />
       </div>
     );
 };
