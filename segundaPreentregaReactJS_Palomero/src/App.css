@@ -17,3 +17,21 @@ span{
   text-align: center;
   color: rgb(255, 255, 255);
 }
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.loader {
+  border: 1rem solid rgb(191, 249, 0);
+  border-top: 1rem solid #007bff;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
