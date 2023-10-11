@@ -6,19 +6,11 @@ import Loader from './Loader';
 
 const ItemDetailContainer = () => {
   const [item, setItem] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [loading] = useState(true);
   console.log(mockItems);
 
   useEffect(() => {
-    mockItems()
-      .then((result) => {
-        setItem(result);
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.error('Error al obtener el elemento:', error);
-        setLoading(false);
-      });
+    setItem(mockItems);
   }, []);
 
   return (
